@@ -1,7 +1,7 @@
 name: Business news to Telegram
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes
+    - cron: "7,22,37,52 * * * *"   # every 15 minutes
   workflow_dispatch:
 
 permissions:
